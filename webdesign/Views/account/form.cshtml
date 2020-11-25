@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "form";
+}
+
+<h1>form</h1>
+<form>
+    fieldset>
+    <legend>
+        Spor Seçim Formu:
+    </legend>
+
+    <table border="2" bgcolor="aqua">
+
+        <tr>
+            <td>Adı:<br></td>
+
+            <td><input type="text" name="ad"></td>
+
+        <tr>
+            <td>Soyadı:<br>
+            <td><input type="text" name="soyad"></td>
+        </tr>
+        <tr>
+            <td>Sınıf:<br>
+            <td><input type="text" name="sınıf"></td>
+        </tr>
+        <tr>
+            <td>Numara:<br>
+            <td><input type="text" name="numara"></td>
+        </tr>
+
+
+        <select name="alanlar">
+            <option value="vol">VOLEYBOL</option>
+            <option value="bas">BASKETBOL</option>
+            <option value="fut">FUTBOL</option>
+            <option value="hen">HENTBOL</option>
+
+        </select>
+
+    </table>
+    Mesajınız:<br>
+    <textarea name="mesaj" rows="15" cols="40">
+            </textarea>
+    </fieldset>
+</form>
+
+
